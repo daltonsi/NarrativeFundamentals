@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="http://mbostock.github.com/d3/d3.js"></script>
+</head>
+<body style="overflow: scroll;">
+<h2>Screenwriting: Fundamentals of Narrative Structure</h2>
+<h4>By Dalton Simancek </br> SI649: Information Visualization </br> Fall 2016</h4>
+
+<p>The challenge of writing/telling a good story is knowing how to choose among an almost innumerable number of options for
+  constructing an effective narrative for a given story.  This tutorial provides a collection of structural models that help to demystify the seemingly random arrangement
+  of events in a narrative into an organized structure of measurable subunits and patterns. </P>
+
+
+<h4>LEARNING OBJECTIVES</h4>
+<ul>1. Be able to <b>identify and describe the different substructures of a story</b> - beats, scenes, sequences, acts - and the relationships among them.
+</ul>
+<ul>2. <b>Distinguish between story and plot</b> and describe how the selection and/or rearrangement of story components result in different “tellings” of the same story and with different developments of dramatic tension.</ul>
+<ul>3. <b>Explain the concept of narrative linearity</b> and provide some examples of non-linear story structures.
+</ul>
+
+<h4>PART 1: Narrative Substructures</h4>
+
+<p>To understand and compare different narrative strucutres, we must first consider how a narrative are the collective sum of smaller
+parts.  The smallest building blocks of a narrative are known as <strong>BEATS</strong>.  A dramatic beat is a change or response to an action or behavior.
+</br>
+</br>
+Let's take the opening scene from STAR WARS: THE FORCE AWAKENS.  Watch the opening scene in its entirety:</p>
+</br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uDvY9Ke1CQs" frameborder="0" allowfullscreen></iframe>
+</br>
+<p>First, let's talk about what is NOT a beat.  The trooper battalion landing on a desert planet - NOT A BEAT.  A spacecraft blows up - NOT A BEAT.  A villager dies - NOT A BEAT.
+While there may be well over 25 story events or actions in this scene, there are approximately 7 beats in the opening scene total.  Remember, a beat must express a <i>change</i> in the dramatic action.
+</br></br>NOTE: the number of beats may vary depending on how they are expressed in terms of dramatic change, but the dramatic change must be expressed in EVERY change.
+</br></br>
+Let's examine the first beat of the movie:
+</p>
+
+<div id="canvas1"  style="overflow: hidden;"></div>
+<p>The First Order descening on the planet is an action.  The village elder meeting with the pilot is also an action.  The disruption or change of one event by another is a dramatic beat.</b>
+</br></br>
+<p>Here are all seven beats of the first scene:</p>
+
+<div id="canvas2"  style="overflow: hidden;"></div>
+
+<p>A collection of beats makes up a <strong>SCENE</strong>. Like beats, scenes are defined by a change in dramatic action.
+   The difference being that the significance of a change in a scene is greater than that of its individual scenes. Note the visualization below.</p>
+
+<div id="canvas3"  style="overflow: hidden;"></div>
+
+<p>A collection of scenes makes up a sequence.</p>
+
+<div id="canvas4"  style="overflow: hidden;"></div>
+
+<p> A collection of sequences makes up an Act</p>
+
+<div id="canvas5"  style="overflow: hidden;"></div>
+
+<p> And there you have it! The basic substructures of narrative. Beats make up scenes, scenes make up sequences, sequences make up acts and acts make up a narrative. </p>
+
+<img src="narrative_substructures.png" alt="Mountain View" style="width:304px;height:304px;">
+</br>
+</br>
+<p>Here we have the entire story of The Force Awakens represented as a three act narrative.</p>
+
+<div id="canvas6"  style="overflow: hidden;"></div>
+
+<p>Each sequence of plot points can be arranged to produce a dramatic structure.  Typically, the most common - and genearally most effective - dramatic structures take on the shape of a triangle.  See below.</p>
+<img src="dramatic_plot.png" alt="Mountain View" style="width:400px;height:304px;">
+<p>Most narratives begin in state of normalcy/stability and then gradually escalate in tension and instability until finally reaching climax and then dropping into a new state of normalcy and stability.
+  This pattern of dramatic tension is completely dependent on the arrangement of narrative substructures.  Storytellers will select a particular order of narrative strucutres to achieve a certain trend of dramatic tension.  Theoretically, you could begin a plot sequence with the MOST dramatically tense narrative substructures,
+  but it would be difficult to sustain the audience's attention for the duration of the story if the tension trickled off in susequent beats.  There are an innumerable number of ways to arrange narrative substructures for varying trends of overall dramatic tension.  As a storyteller, you're welcome to explore various structures, but note that convention holds that triangular dramatic strucutres are known to be the most common and effective.</p>
+
+
+<h4>PART 2: Story and Plot </h4>
+
+<p>Let's consider ALL the possible beats in Star Wars Universe during the time of this movie.  All the other popular characters must be up to something while Finn and Rey trying to get off the desert planet Jakuu.
+Let's say Han Solo and Chewbacca are running into trouble capturing those Rathtars that appear later in the movie.  That's a beat in the collective <strong>STORY SPACE</strong> of Star Wars universe.  However, not all beats in a story space will be covered in the final plot - note that we never see how Han and Chewie captured the Rathtars, but it did happen in the story space.
+Instead, as a storyteller, we choose a subset of story events and beats to construct a narrative.  The <strong>PLOT</strong> of the movie are the selected beats of the story space that are presented in the narrative.  Typically, plots are composed of a particular sequence of beats and narrative substructures that achieve a particular pattern of dramatic tension.
+</br>
+</br>
+<p>The circles below are representive of all possible beats in a STORY SPACE.  Click a subselection of them to specify plot points for a narrative.</p>
+
+
+<div id="canvas7"  style="overflow: hidden;"></div>
+</br>
+</br>
+<p>The selected plot points can be arranged in a sequence that will produce a narrative of fluctuating dramatic tension.</p>
+<img src="plot_points.png" alt="Mountain View" style="width:400px;height:304px;">
+<p>A single story space can be traversed through different selections of plot points in a given narrative, resulting in retellings or reimagingings of a story space.  For example, we can write a story from the perspective of a different character or cover an event that was only referenced by name in a previous iteration of the narrative. Remember, selecting alternative sequences of story substructures will impact the shape of the dramatic tensions as well!
+
+
+<h4>PART 3: Narrative Linearity</h4>
+
+<p>Recall from Part 2 that we can select a sequence of plots points from a story space.  Note the diagram below with the colored slices as our selected plot points in the story space.</p>
+<img src="linearity_1.png" alt="Mountain View" style="width:532px;height:470px;">
+
+<p>In any given story space, there is - much like in real life - a linear progression of time through all possible plot points.  The diagram belows shows our selected plot points following the same sequence that they appear in the story space.  This is a <strong>LINEAR NARRATIVE</strong>.<p>
+<img src="linearity_2.png" alt="Mountain View" style="width:592px;height:572px;">
+<p>However, linear narratives are not the only option for constructing sequences of plot points from a story space.  We can, for example, construct a narrative with plot points that are "out of order" in the time of the story space.  The plot belows shows an example of a <strong>NON-LINEAR NARRATIVE</strong>.</p>
+<img src="linearity_3.png" alt="Mountain View" style="width:592px;height:572px;">
+<p>The Force Awakens and the vast majority of stories use a linear narrative(Although there is short dream/flashback sequence in The Force Awakens that one could argue is a non linear segment).  Non-linear narratives contain flashbacks or flashforwards such as SLUMDOG MILLIONAIRE.  Or a non-linear narrative may revist the same time in the story space but from the perspective of a different character each time(See the Japaneese classic RASHOMON).</p>
+<img src="slumdog_millionaire.gif"  style="width:380px;height:285px;">
+<img src="rashomon.jpg" style="width:380px;height:285px;">
+
+
+<div>
+<h4>REFERENCES</h4>
+<ul>Overview of Robert Mckee
+<ul>http://www.slideshare.net/jucaitis/the-elements-of-story-by-robert-mckee
+</ul>
+</ul>
+<ul>Overview of Non-Linear Story Models</ul>
+<ul>https://prezi.com/7ibabrhpzhbn/brackin-non-linear-story-models/
+</ul>
+<ul>
+Save the Cat!
+<ul>http://www.savethecat.com/
+</ul>
+</ul>
+</div>
+</body>
+
+
+<script type="text/javascript">
+
+var width = 800;
+var height = 100;
+
+var beat_G1 = {
+  "nodes":[
+    {"name":"Beat 1", "group":1,"Text":"The village elder meets with a Resistance pilot to relay information about Luke Skywalker’s whereabouts, but then the droid BB-8 interrupts and announces the arrival of the attacking First Order."}
+  ],
+  "nodes2":[
+    {"name":"Beat 1", "group":1,"Text":"The village elder meets with a Resistance pilot to relay information about Luke Skywalker’s whereabouts, but then the droid BB-8 interrupts and announces the arrival of the attacking First Order."},
+    {"name":"Beat 2", "group":1,"Text":"A battle ensues with a full on assault from the First Order, but a lone trooper stops mid-battle upon the witnessing the death of another trooper."},
+    {"name":"Beat 3", "group":1,"Text":"The pilot works to escape the battle with the vital information, but his ship is damanged and he instead passes off the information to BB-8 instead."},
+    {"name":"Beat 4", "group":1,"Text":"The leader of the assault force – Kylo Ren – begins interrogating the captured village elder to retrieve information about Luke Skywalker, but the elder refuses and is murdered by Ren."},
+    {"name":"Beat 5", "group":1,"Text":" The pilot joins the battle but is captured by the leader of the assault force – Kylo Ren."},
+    {"name":"Beat 6", "group":1,"Text":"Kylo Ren orders the extermination of the remaining villagers, but the lone trooper does not comply."},
+    {"name":"Beat 7", "group":1,"Text":"The village is destroyed, but BB-8 carries on with the information related to Luke Skywalker."}
+  ],
+  "links":[
+    {"source":1,"target":0,"value":1},
+    {"source":2,"target":1,"value":1},
+    {"source":3,"target":2,"value":1},
+    {"source":4,"target":3,"value":1},
+    {"source":5,"target":4,"value":1},
+    {"source":6,"target":5,"value":1}
+  ],
+  "scenes":[
+    {"name":"Scene 1", "group":1, "Text":" The desert village falls, but BB-8 escapes with the map to Luke Skywalker."}
+  ],
+  "sequences":[
+    {"name":"Sequence 1", "group":1, "Text":" After defecting from his unit, the lone trooper - Finn - rescues the pilot Poe, but they are shot down during the escape."}
+  ],
+  "acts":[
+    {"name":"Act 1", "group":1, "Text":" Rey, Finn and BB-8 escape the clutches of the First Order and set off to aid the Resistance."}
+  ],
+  "nodes3":[
+    {"name":"Act 1", "group":1, "Text":" Rey, Finn and BB-8 escape the clutches of the First Order and set off to aid the Resistance."},
+    {"name":"Act 2", "group":1, "Text":" Rey and Finn join a band of allies, learn about the struggle between good and evil, but they are then attacked by the First Order and seperated."},
+    {"name":"Act 3", "group":1, "Text":" Rey and Finn reunite, take on Kylo Ren and the First Order and then return to the resistance to finally find Luke Skywalker."}
+
+  ],
+  "links2":[
+    {"source":1,"target":0,"value":1},
+    {"source":2,"target":1,"value":1}
+
+
+  ],
+}
+
+var plot_data = [
+    [20,20,20,20,20],
+    [20,20,20,20,20],
+    [20,20,20,20,20]
+];
+
+
+var beat_G1_DIV = d3.select("#canvas1")
+                        .append('div')
+                        .attr("class","beat_G1")
+
+var beat_G2_DIV = d3.select("#canvas2")
+                        .append('div')
+                        .attr("class","beat_G2")
+
+var scene_S1_DIV = d3.select("#canvas3")
+          .append('div')
+          .attr("class","scene_S1")
+
+var sequence_Seq1_DIV = d3.select("#canvas4")
+                    .append('div')
+                    .attr("class","scene_S1")
+
+var act_A1_DIV = d3.select("#canvas5")
+                        .append('div')
+                        .attr("class","act_A1")
+
+var nodePlot_N1_DIV = d3.select("#canvas6")
+                  .append('div')
+                  .attr("class","act_A1")
+
+var plot_DIV = d3.select("#canvas7")
+          .append('div')
+          .attr("class","plot_P1")
+
+
+var svg1 = beat_G1_DIV.append("svg")
+.attr("width", width)
+.attr("height", height)
+/**.call(d3.behavior.zoom().scaleExtent([1, 8]).on("zoom", zoom))**/
+.append("g");
+
+var svg2 = beat_G2_DIV.append("svg")
+.attr("width", width)
+.attr("height", height)
+.append("g");
+
+var svg3 = scene_S1_DIV.append("svg")
+.attr("width", width)
+.attr("height", height*2)
+.append("g");
+
+var svg4 = sequence_Seq1_DIV.append("svg")
+.attr("width", width)
+.attr("height", height*3)
+.append("g");
+
+var svg5 = act_A1_DIV.append("svg")
+.attr("width", width)
+.attr("height", height*3)
+.append("g");
+
+var svg6 = nodePlot_N1_DIV.append("svg")
+.attr("width", width)
+.attr("height", height*3)
+.append("g");
+
+var svg7 = plot_DIV.append('svg')
+    .attr('height', height*2)
+    .attr('width', width)
+  .append('g')
+    .attr('transform', 'translate(30, 30)');
+
+var div_area = width*height,
+num_nodes = beat_G1.nodes.length,
+node_area = div_area/num_nodes,
+node_to_padding_ratio = 0.50,
+node_dia_inc_pad = Math.sqrt(node_area),
+node_radius_wo_pad = node_dia_inc_pad/2*node_to_padding_ratio,
+node_padding = node_dia_inc_pad/2*(1-node_to_padding_ratio),
+nodes_in_width = parseInt(width/(node_dia_inc_pad)),
+nodes_in_height = parseInt(height/(node_dia_inc_pad));
+
+var xScale = d3.scale.linear()
+.domain([0,nodes_in_width])
+.range([node_radius_wo_pad,width-node_radius_wo_pad]);
+
+var yScale = d3.scale.linear()
+.domain([0,nodes_in_height])
+.range([node_radius_wo_pad,height-node_radius_wo_pad]);
+
+var beats_G1 = svg1.selectAll("circle")
+.data(beat_G1.nodes)
+.enter().append("circle")
+.style("stroke", "black")
+.style("fill", "#CAC5E3")
+.attr("class","G1")
+.attr("r", node_radius_wo_pad/3)
+.attr("cx", function(d, i){ return xScale(i%nodes_in_width);})
+.attr("cy", function(d, i){ return yScale(parseInt(i/nodes_in_width));})
+.attr("index", function(d, i){return i;});
+
+
+var div_area = width*height,
+num_nodes = beat_G1.nodes2.length,
+node_area = div_area/(num_nodes),
+node_to_padding_ratio = 0.50,
+node_dia_inc_pad = Math.sqrt(node_area),
+node_radius_wo_pad = node_dia_inc_pad/2*node_to_padding_ratio,
+node_padding = node_dia_inc_pad/2*(1-node_to_padding_ratio),
+nodes_in_width = parseInt(width/(node_dia_inc_pad)),
+nodes_in_height = parseInt(height/(node_dia_inc_pad));
+
+
+var lines2 = svg2.attr("class", "line")
+.selectAll("line").data(beat_G1.links)
+.enter().append("line")
+.attr("x1", function(d) { return xScale(d.source%nodes_in_width/4); })
+.attr("y1", function(d) { return yScale(parseInt(d.source/nodes_in_width/4)); })
+.attr("x2", function(d) { return xScale(d.target%nodes_in_width/4); })
+.attr("y2", function(d) {  return yScale(parseInt(d.target/nodes_in_width/4)); })
+.attr("src", function(d) {  return d.source; })
+.attr("trgt", function(d) {  return d.target; })
+.style("stroke", "grey");
+
+var beats_G2 = svg2.selectAll("circle")
+.data(beat_G1.nodes2)
+.enter().append("circle")
+.style("stroke", "gray")
+.style("fill", "#CAC5E3")
+.attr("class","G2")
+.attr("r", node_radius_wo_pad)
+.attr("cx", function(d, i){ return xScale(i%nodes_in_width/4);})
+.attr("cy", function(d, i){ return yScale(parseInt(i/nodes_in_width));})
+.attr("index", function(d, i){return i;});
+
+
+var scenes_S1 = svg3.selectAll("circle")
+.data(beat_G1.scenes)
+.enter().append("circle")
+.style("stroke", "gray")
+.style("fill", "#E0B6D5")
+.attr("class","S1")
+.attr("r", node_radius_wo_pad*2)
+.attr("cx", function(d, i){ return xScale(i%nodes_in_width/4);})
+.attr("cy", function(d, i){ return yScale(parseInt(i/nodes_in_width));})
+.attr("index", function(d, i){return i;});
+
+var sequence_Seq1 = svg4.selectAll("circle")
+.data(beat_G1.sequences)
+.enter().append("circle")
+.style("stroke", "gray")
+.style("fill", "#F6A1A8")
+.attr("class","Seq1")
+.attr("r", node_radius_wo_pad*3)
+.attr("cx", function(d, i){ return xScale(i%nodes_in_width)+ 40;})
+.attr("cy", function(d, i){ return yScale(parseInt(i/nodes_in_width))+40;})
+.attr("index", function(d, i){return i;});
+
+
+var act_A1 = svg5.selectAll("circle")
+.data(beat_G1.acts)
+.enter().append("circle")
+.style("stroke", "gray")
+.style("fill", "#E8715F")
+.attr("class","A1")
+.attr("r", node_radius_wo_pad*4)
+.attr("cx", function(d, i){ return xScale(i%nodes_in_width)+ 40;})
+.attr("cy", function(d, i){ return yScale(parseInt(i/nodes_in_width))+40;})
+.attr("index", function(d, i){return i;});
+
+var lines2 = svg6.attr("class", "line")
+.selectAll("line").data(beat_G1.links)
+.enter().append("line")
+.attr("x1", function(d) { return xScale(d.source%nodes_in_width/12); })
+.attr("y1", function(d) { return yScale(parseInt(d.source/nodes_in_width/12)); })
+.attr("x2", function(d) { return xScale(d.target%nodes_in_width/12); })
+.attr("y2", function(d) {  return yScale(parseInt(d.target/nodes_in_width/12)); })
+.attr("src", function(d) {  return d.source; })
+.attr("trgt", function(d) {  return d.target; })
+.style("stroke", "grey");
+
+var nodePlot_P1 = svg6.selectAll("circle")
+.data(beat_G1.nodes3)
+.enter().append("circle")
+.style("stroke", "gray")
+.style("fill", "#E8715F")
+.attr("class","P1")
+.attr("r", node_radius_wo_pad)
+.attr("cx", function(d, i){ return xScale(i%nodes_in_width/4);})
+.attr("cy", function(d, i){ return yScale(parseInt(i/nodes_in_width));})
+.attr("index", function(d, i){return i;});
+
+
+
+/**svg6.append("g")
+    .call(d3.svg.axis()
+                .scale(xScale)
+                .orient("bottom"));**/
+
+
+var beat_G1_Tips=beat_G1_DIV.append("div")
+                                .attr("class",'tooltip')
+                                .style("display","none")
+                                .style('position',"absolute")
+                                .style("fill","black");
+
+        var beat_G2_Tips=beat_G2_DIV.append("div")
+                  .attr("class",'tooltip')
+                 .style("display","none")
+               .style('position',"absolute")
+                .style("fill","black");
+
+                var scene_S1_Tips=scene_S1_DIV.append("div")
+                          .attr("class",'tooltip')
+                         .style("display","none")
+                       .style('position',"absolute")
+                        .style("fill","black");
+
+                        var sequence_Seq1_Tips=sequence_Seq1_DIV.append("div")
+                                  .attr("class",'tooltip')
+                                 .style("display","none")
+                               .style('position',"absolute")
+                                .style("fill","black");
+
+                                var act_A1_Tips=act_A1_DIV.append("div")
+                                          .attr("class",'tooltip')
+                                         .style("display","none")
+                                       .style('position',"absolute")
+                                        .style("fill","black");
+
+                                        var nodePlot_N1_Tips=nodePlot_N1_DIV.append("div")
+                                                  .attr("class",'tooltip')
+                                                 .style("display","none")
+                                               .style('position',"absolute")
+                                                .style("fill","black");
+
+                                        var toggleColor = (function(){
+                                           var currentColor = "#909091";
+
+                                            return function(){
+                                                currentColor = currentColor == "#909091" ? "magenta" : "#909091";
+                                                d3.select(this).style("fill", currentColor);
+                                            }
+                                        })();
+
+
+var circleRow = svg7.selectAll('.row')
+  .data(plot_data)
+  .enter().append('g')
+    .attr('transform', function(d, i) {
+      return 'translate(30,' + i * 60 + ')';
+    });
+
+    circleRow.selectAll('.circle')
+        .data(function(d, i) { return plot_data[i]; })
+      .enter().append('circle')
+        .attr("class", "plot")
+        .style('fill','#909091')
+        .attr('r', function(d) { return d; })
+        .attr('cx', function(d, i) { return i * 60; })
+        .attr('cy', 0)
+        .on("click", toggleColor);
+
+function handleMouseOver(d,i){
+  beat_G1_Tips.style("display","inline");
+  beat_G2_Tips.style("display","inline");
+  scene_S1_Tips.style("display","inline");
+  sequence_Seq1_Tips.style("display","inline");
+  act_A1_Tips.style("display","inline");
+  nodePlot_N1_Tips.style("display","inline");
+
+
+}
+
+
+function handleMouseMove(d,i){
+      fieldName=d3.select(this).attr('class')
+      beat_G1_Tips.text(d.name +":"+ d.Text)
+        .style("left", (d3.event.pageX - 34) + "px")
+        .style("top", (d3.event.pageY - 12) + "px")
+        .style("color","black");
+        beat_G2_Tips.text(d.name +":"+ d.Text)
+          .style("left", (d3.event.pageX - 34) + "px")
+          .style("top", (d3.event.pageY - 12) + "px")
+          .style("color","black");
+          scene_S1_Tips.text(d.name +":"+ d.Text)
+            .style("left", (d3.event.pageX - 34) + "px")
+            .style("top", (d3.event.pageY - 12) + "px")
+            .style("color","black");
+            sequence_Seq1_Tips.text(d.name +":"+ d.Text)
+              .style("left", (d3.event.pageX - 34) + "px")
+              .style("top", (d3.event.pageY - 12) + "px")
+              .style("color","black");
+              act_A1_Tips.text(d.name +":"+ d.Text)
+                .style("left", (d3.event.pageX - 34) + "px")
+                .style("top", (d3.event.pageY - 12) + "px")
+                .style("color","black");
+                nodePlot_N1_Tips.text(d.name +":"+ d.Text)
+                  .style("left", (d3.event.pageX - 34) + "px")
+                  .style("top", (d3.event.pageY - 12) + "px")
+                  .style("color","black");
+  }
+function handleMouseOut(d,i){
+beat_G1_Tips.style("display", "none");
+beat_G2_Tips.style("display", "none");
+scene_S1_Tips.style("display", "none");
+sequence_Seq1_Tips.style("display", "none");
+act_A1_Tips.style("display", "none");
+nodePlot_N1_Tips.style("display", "none");
+                }
+
+beat_G1_DIV.selectAll("circle")
+    .filter(".G1")
+      .on("mouseover", handleMouseOver)
+      .on("mouseout",handleMouseOut)
+      .on("mousemove", handleMouseMove)
+
+      beat_G2_DIV.selectAll("circle")
+          .filter(".G2")
+            .on("mouseover", handleMouseOver)
+            .on("mouseout",handleMouseOut)
+            .on("mousemove", handleMouseMove)
+
+            scene_S1_DIV.selectAll("circle")
+                .filter(".S1")
+                  .on("mouseover", handleMouseOver)
+                  .on("mouseout",handleMouseOut)
+                  .on("mousemove", handleMouseMove)
+
+                  sequence_Seq1_DIV.selectAll("circle")
+                      .filter(".Seq1")
+                        .on("mouseover", handleMouseOver)
+                        .on("mouseout",handleMouseOut)
+                        .on("mousemove", handleMouseMove)
+
+                        act_A1_DIV.selectAll("circle")
+                            .filter(".A1")
+                              .on("mouseover", handleMouseOver)
+                              .on("mouseout",handleMouseOut)
+                              .on("mousemove", handleMouseMove)
+
+                              nodePlot_N1_DIV.selectAll("circle")
+                                  .filter(".P1")
+                                    .on("mouseover", handleMouseOver)
+                                    .on("mouseout",handleMouseOut)
+                                    .on("mousemove", handleMouseMove)
+
+
+
+function zoom() {
+  svg1.attr("transform", "translate(" + d3.event.translate + ")scale(" + d3.event.scale + ")");
+}
+</script>
+
+
+</html>
